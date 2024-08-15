@@ -1,0 +1,111 @@
+<style>
+        header{
+            background-color: beige;
+            color: black;
+            font-size: large;
+        }
+        p,nav{
+            display: inline-block;
+            justify-content: space-around;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav ul{
+            list-style-type: none;
+            display: inline;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1em;
+        }
+        nav ul li a{
+            font-weight: bolder;
+            font-size: larger;
+            text-decoration: none;
+        }
+        .tagline{
+            margin-left: 50px;
+            font-family: Papyrus;
+        }
+        .hed1{
+            font-family: Lucida Handwriting;
+        }
+        form{
+            
+
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            background-color:rgb(26, 25, 25);
+        }
+        form label,input,textarea,button{
+            margin-left: 10px;
+        }
+        body{
+            margin-left:30px ;
+            background-color: rgb(26, 25, 25);
+            color: white;
+            font-family: Comic Sans;
+            font-size: 50px;
+        }
+        section {
+            min-height: 100vh;
+            padding: 20px;
+            font-size: large;
+        }
+        
+        footer {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+}
+
+
+
+        footer p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer .social-icons {
+    margin-top: 20px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 24px;
+    color: #178416;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    border-radius: 35px;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+    </style>
