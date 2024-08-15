@@ -30,6 +30,14 @@ nav ul li a{
     text-decoration: none;
     color: green;
 }
+nav ul li:hover {
+    display: inline;
+    margin: 0 1em;
+    border-radius: 5px;
+    width: 15px;
+    height: 10px;
+    background-color: white;
+}
 .tagline{
     margin-left: 50px;
     font-family: Papyrus;
